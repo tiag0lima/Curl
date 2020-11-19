@@ -5,35 +5,46 @@ So easy as
 
 
 <h2>get example</h2>
+
 ```
+
 std::string get_example(std::string url) {
 	Curl curl;
 	curl.get(url);
 	return curl.response();
 }
+
 ```
 
 <h2>post example</h2>
+
 ```
+
 std::string post_example(std::string url, Json::value) {
 	Curl curl;
 	curl.post_json(url, value);
 	return curl.response();
 }
+
 ```
 
 <h2>put example</h2>
+
 ```
+
 std::string put_example(std::string url, std::string filename) {
 	Curl curl;
 	curl.put(url, filename);
 	return curl.response();
 }
+
 ```
 
 
 <h1>You can get the error with</h2>
+
 ```
+
 std::string error_example(std::string url) {
 	Curl.curl;
 	bool ok = curl.get(url);
@@ -41,11 +52,14 @@ std::string error_example(std::string url) {
 		return curl.last_error();
 	return "not has error";
 }
+
 ```
 
 
-The functions are<br>
+The functions are
+
 ```
+
 void set_post(std::string);
 bool post_raw(std::string, std::string);
 bool post_data(std::string, std::map<std::string, std::string>);
@@ -67,5 +81,6 @@ long max_redirs();
 void set_keep_alive(long);
 long keep_alive();
 double total_time();
+
 ```
 
