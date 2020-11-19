@@ -8,8 +8,8 @@ So easy as
 
 //get example <br/>
 int main() { <br />
-	Curl curl; <br />
+	Curl curl; <br/>
 	curl.get("https://google.com"); <br />
-	std::string = curl.response();&nbsp < br>
+	std::string = curl.response(); <br />
 } <br />
 
