@@ -41,7 +41,7 @@ std::string put_example(std::string url, std::string filename) {
 ```
 
 
-<h1>You can get the error with</h2>
+<h2>You can get the error with</h2>
 
 ```
 
@@ -56,7 +56,7 @@ std::string error_example(std::string url) {
 ```
 
 
-The functions are
+<h2>The functions are<h2/>
 
 ```
 
