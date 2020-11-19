@@ -56,7 +56,7 @@ std::string error_example(std::string url) {
 ```
 
 
-<h2>The functions are<h2/>
+<h2>The functions are</h2>
 
 ```
 
