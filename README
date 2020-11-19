@@ -1,0 +1,5 @@
+
+
+
+#To work you need to install the libs
+apt install jsoncpp libcurl libcurl-static
