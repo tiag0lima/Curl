@@ -6,10 +6,10 @@ So easy as
 //only curl include with
 #include "Curl.h"
 
-//get example
-int main() {
-	Curl curl;
-	curl.get("https://google.com");
-	std::string curl.response();
-}
+//get example&nbsp
+int main() {&nbsp
+	Curl curl;&nbsp
+	curl.get("https://google.com");&nbsp
+	std::string = curl.response();&nbsp
+}&nbsp
 
